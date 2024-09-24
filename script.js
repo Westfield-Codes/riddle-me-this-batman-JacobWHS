@@ -1,5 +1,15 @@
-function bellRiddle(){
-  var answer = prompt("Why is an orange like a bell? Because they both must be ...");
-  if (answer == "peeled" || answer == "pealed") alert("Correct!");
-  else alert("Wrong, Batman! Watch the video, and try again.");
+function uhSigma(){
+  alert("Now, riddle me this batman!")
+  var answer = prompt("What is something any man wants to be that is also a math term?")
+  switch (answer) {
+    case "sigma":
+      alert("Absolutely!");
+      break;
+    case "sigma sign":
+      alert("Very clever, mate.");
+      break;
+    default:
+      alert("Incorrect!");
+      break;
+  }
 }
